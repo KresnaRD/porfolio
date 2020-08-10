@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    border-bottom: 1px solid #000000;
+    height: 55px;
+    top: 0;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.left {
+    float: left;
+}
+
+header img {
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.right {
+    float: right;
+}
+
+.jumbotron {
+    min-height: 500px;
+    text-align: center;
+    background: url(img/hero.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron img {
+    text-align: center;
+    width: 200px;
+    margin-top: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1 {
+    color: #2e2e2e;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.card {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    border-color: #2e2e2e;
+}
+
+#content {
+    float: left;
+    width: 75%;
+    color: #2e2e2e;
+}
+
+aside {
+    text-align: center;
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    color: #2e2e2e;
+}
+
+#contact a {
+    font-size: 14px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #2e2e2e;
+}
+
+#profile h1 {
+    margin-bottom: 10px;
+}
+
+#profile p {
+    text-align: justify;
+    margin-left: 20px;
+    color: #1b1b1b;
+    line-height: 30px;
+}
+
+#portfolio img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+main a {
+    text-align: center;
+}
+
+footer {
+    min-height: 30px;
+    padding: 5px;
+    color: white;
+    background-color: #2e2e2e;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p {
+    line-height: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
